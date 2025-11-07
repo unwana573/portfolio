@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-center md:text-left">
             <p className="text-muted-foreground">
-              © {currentYear} Alex Johnson. Made with{" "}
+              © {currentYear}  Unwana David orok. Made with{" "}
               <Heart className="inline h-4 w-4 text-red-500 fill-current" />{" "}
               using React & TypeScript
             </p>

@@ -26,8 +26,8 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, label: "GitHub", href: "#" },
-    { icon: Linkedin, label: "LinkedIn", href: "#" },
+    { icon: Github, label: "GitHub", href: "https://github.com/unwana573" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/unwana-orok-6b7ab02a0/" },
     { icon: Twitter, label: "Twitter", href: "#" },
   ];
 
