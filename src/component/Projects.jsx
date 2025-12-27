@@ -5,6 +5,7 @@ import { ExternalLink, Github, ArrowRight } from "lucide-react";
 import project1 from "../assets/eazymovie.png";
 import project2 from "../assets/Screenshot 2025-12-26 173509.png";
 import project3 from "../assets/dashboard.png";
+import project4 from "../assets/delivery.png";
 
 const Projects = () => {
   const projects = [
@@ -20,7 +21,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Delivery website",
+      title: "Foodie web",
       description: "A full-featured food delivery platform with secure online payments, real-time order tracking, restaurant listings, and a seamless experience across all devices.",
       image: project2,
       technologies: ["React", "Tailwind CSS"],
@@ -36,6 +37,16 @@ const Projects = () => {
       technologies: ["React", "Tailwind CSS"],
       liveUrl: "https://opr-dashboard.vercel.app/",
       githubUrl: "https://github.com/unwana573/OPR-dashboard.git",
+      featured: false
+    },
+    {
+      id: 3,
+      title: "Delivery website",
+      description: "Collaborative project management tool with real-time updates, team collaboration features, and advanced project tracking capabilities.",
+      image: project4,
+      technologies: ["React", "Tailwind CSS"],
+      liveUrl: "https://delivery-web-updated.vercel.app/",
+      githubUrl: "https://github.com/unwana573/delivery-web-updated.git",
       featured: false
     }
   ];

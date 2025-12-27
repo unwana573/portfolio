@@ -21,9 +21,9 @@ const Skills = () => {
       title: "Backend Development",
       icon: "⚙️",
       skills: [
-        { name: "Python", level: 88 },
-        { name: "FastAPI", level: 85 },
-        { name: "PostgreSQL", level: 82 }
+        { name: "Python", level: 70 },
+        { name: "FastAPI", level: 65 },
+        { name: "PostgreSQL", level: 72 }
       ],
       color: "from-green-500 to-teal-600"
     }
