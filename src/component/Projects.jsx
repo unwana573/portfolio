@@ -63,7 +63,6 @@ const Projects = () => {
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className={`grid lg:grid-cols-5 gap-0 ${index % 2 === 1 ? 'lg:grid-flow-dense' : ''}`}>
-                {/* Image */}
                 <div className={`relative overflow-hidden lg:col-span-2 ${index % 2 === 1 ? 'lg:col-start-4' : ''}`}>
                   <div className="relative h-64 lg:h-full">
                     <img
@@ -80,7 +79,6 @@ const Projects = () => {
                   )}
                 </div>
 
-                {/* Content */}
                 <div className={`p-8 lg:p-12 flex flex-col justify-center lg:col-span-3 ${index % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
                   <div className="space-y-6">
                     <div className="space-y-4">

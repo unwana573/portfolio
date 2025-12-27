@@ -10,7 +10,6 @@ const SkillProgress = ({ skill, percentage }) => {
       ([entry]) => {
         if (entry.isIntersecting && !isVisible) {
           setIsVisible(true);
-          // Animate progress bar
           setTimeout(() => {
             setProgress(percentage);
           }, 200);
@@ -37,13 +36,11 @@ const SkillProgress = ({ skill, percentage }) => {
         </span>
       </div>
       
-      {/* Custom Progress Bar */}
       <div className="relative h-2 bg-white/10 rounded-full overflow-hidden">
         <div
           className="absolute top-0 left-0 h-full bg-linear-to-r from-blue-500 to-purple-600 rounded-full transition-all duration-1000 ease-out"
           style={{ width: `${progress}%` }}
         >
-          {/* Shine effect */}
           <div className="absolute inset-0 bg-linear-to-r from-transparent via-white/20 to-transparent animate-shimmer"></div>
         </div>
       </div>

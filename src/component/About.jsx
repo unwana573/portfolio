@@ -24,7 +24,6 @@ const About = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
-          {/* Content */}
           <div className="space-y-8 animate-slide-in-left">
             <div className="space-y-6">
               <h3 className="text-2xl lg:text-3xl font-semibold text-white">
@@ -32,28 +31,25 @@ const About = () => {
               </h3>
               <div className="space-y-4 text-gray-400 leading-relaxed text-base">
                 <p>
-                  I'm a passionate full-stack developer with over 5 years of experience 
-                  building scalable digital solutions that seamlessly connect intuitive 
-                  user interfaces with robust backend systems. My journey began with a 
-                  curiosity about how applications work end-to-end and evolved into a 
-                  love for crafting complete, production-ready products.
+                  I'm a passionate frontend developer with over 5 years of hands-on experience
+                  building responsive, user-friendly interfaces and crafting engaging digital experiences. 
+                  My focus is on transforming designs into clean, accessible, and high-performance frontend solutions.
                 </p>
                 <p>
-                  I specialize in modern frontend frameworks and backend technologies, 
-                  focusing on performance, security, and maintainability. When I'm not 
-                  coding, I enjoy exploring new technologies, contributing to open-source 
-                  projects, and helping other developers grow through mentorship.
+                  Alongside my frontend expertise, I have less than 6 months of experience
+                  working with backend technologies, where I’m actively building my skills in creating APIs, 
+                  handling databases, and understanding how frontend applications integrate with server-side systems.
                 </p>
                 <p>
-                  I believe in the power of technology to solve real-world problems and 
-                  continuously strive to build efficient, scalable, and accessible 
-                  applications that deliver meaningful impact.
+                  I’m highly committed to continuous learning and growth, with a strong interest in evolving into a 
+                  well-rounded full-stack developer. I enjoy exploring new technologies, improving my workflows, 
+                  and building scalable applications that solve real-world problems.
                 </p>
               </div>
+
             </div>
           </div>
 
-          {/* Stats */}
           <div className="grid grid-cols-2 gap-4 lg:gap-6 animate-fade-in">
             {achievements.map((achievement, index) => (
               <Card 

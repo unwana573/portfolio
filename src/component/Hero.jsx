@@ -14,7 +14,6 @@ const Hero = () => {
     <section id="hero" className="min-h-screen flex items-center justify-center relative">
       <div className="max-w-7xl mx-auto px-10 py-20">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Content */}
           <div className="space-y-6 animate-fade-in">
             <div className="space-y-6">
               <p className="text-blue-500 font-medium tracking-wide uppercase text-sm">
@@ -27,7 +26,7 @@ const Hero = () => {
                 </span>
               </h1>
               <h2 className="text-2xl lg:text-3xl font-light text-gray-400">
-                Full-Stack
+                Full-Stack Web Developer
               </h2>
             </div>
             
@@ -80,13 +79,10 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Profile Image */}
           <div className="flex justify-center lg:justify-end animate-fade-in">
             <div className="relative">
-              {/* Glowing background effect */}
               <div className="absolute inset-0 bg-linear-to-r from-blue-500/30 to-purple-600/30 rounded-full blur-3xl"></div>
               
-              {/* Image container */}
               <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white/10 shadow-2xl">
                 <img
                   src={profilePhoto}
@@ -99,7 +95,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <button
         onClick={() => scrollToSection("about")}
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hover:text-blue-500 transition-colors duration-200"

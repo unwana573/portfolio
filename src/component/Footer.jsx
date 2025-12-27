@@ -7,7 +7,6 @@ const Footer = () => {
     <footer className="bg-black/20 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-10 py-12">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-          {/* Copyright */}
           <div className="text-center md:text-left">
             <p className="text-gray-400 text-sm">
               © {currentYear} Unwana David Orok. Made with{" "}
@@ -18,7 +17,6 @@ const Footer = () => {
           </div>
           
 
-          {/* Social Links */}
           <div className="flex items-center gap-3">
             <a
               href="https://github.com/unwana573"
@@ -50,8 +48,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Additional Info */}
-        
       </div>
     </footer>
   );
