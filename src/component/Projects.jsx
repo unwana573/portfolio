@@ -2,7 +2,7 @@ import { Card } from "./ui/card";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { ExternalLink, Github, ArrowRight } from "lucide-react";
-import project1 from "../assets/eazymovie.png";
+import project1 from "../assets/Screenshot 2025-12-29 155818.png";
 import project2 from "../assets/Screenshot 2025-12-26 173509.png";
 import project3 from "../assets/dashboard.png";
 import project4 from "../assets/delivery.png";
@@ -15,8 +15,8 @@ const Projects = () => {
       description: "A dynamic movie platform featuring real-time insights, audience tracking, and advanced content analytics — built with modern web technologies for a seamless viewing experience",
       image: project1,
       technologies: ["HTML", "CSS", "Javascript"],
-      liveUrl: "https://eazy-movies.vercel.app",
-      githubUrl: "https://github.com/unwana573/Eazy-movies.git",
+      liveUrl: "https://madonna-computing-website.vercel.app/",
+      githubUrl: "https://github.com/unwana573/Faculty-web-.git",
       featured: true
     },
     {
