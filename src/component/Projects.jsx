@@ -17,7 +17,7 @@ const Projects = () => {
       technologies: ["HTML", "CSS", "Javascript"],
       liveUrl: "https://madonna-computing-website.vercel.app/",
       githubUrl: "https://github.com/unwana573/Faculty-web-.git",
-      featured: true
+      featured: false
     },
     {
       id: 2,
