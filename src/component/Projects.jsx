@@ -27,7 +27,7 @@ const Projects = () => {
       technologies: ["React", "Tailwind CSS"],
       liveUrl: "https://foodieland-liard.vercel.app/",
       githubUrl: "https://github.com/unwana573/foodieland.git",
-      featured: true
+      featured: false
     },
     {
       id: 3,
