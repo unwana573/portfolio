@@ -11,8 +11,8 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Movie Websites",
-      description: "A dynamic movie platform featuring real-time insights, audience tracking, and advanced content analytics — built with modern web technologies for a seamless viewing experience",
+      title: " Madonna University Faculty of Computing Website",
+      description: "Official website of the Faculty of Computing, Madonna University, Elele. Offering accredited programs in Computer Science, Cyber Security & Software Engineering.",
       image: project1,
       technologies: ["HTML", "CSS", "Javascript"],
       liveUrl: "https://madonna-computing-website.vercel.app/",
@@ -42,7 +42,7 @@ const Projects = () => {
     {
       id: 3,
       title: "Delivery website",
-      description: "Collaborative project management tool with real-time updates, team collaboration features, and advanced project tracking capabilities.",
+      description: "An intelligent delivery solution featuring live order tracking, instant notifications, and optimized delivery workflows for fast and reliable service.",
       image: project4,
       technologies: ["React", "Tailwind CSS"],
       liveUrl: "https://delivery-web-updated.vercel.app/",
