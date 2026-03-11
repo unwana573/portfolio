@@ -162,14 +162,14 @@ const Projects = () => {
           ))}
         </div>
 
-        <div className="text-center mt-16 animate-fade-in">
+        {/* <div className="text-center mt-16 animate-fade-in">
           <Button 
             className="group bg-transparent border-2 border-blue-600 text-blue-500 hover:bg-blue-600/10 font-medium px-8 py-6 text-base rounded-md transition-all duration-200"
           >
             View All Projects
             <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" />
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );
