@@ -6,6 +6,7 @@ import project1 from "../assets/Screenshot 2025-12-29 155818.png";
 import project2 from "../assets/Screenshot 2025-12-26 173509.png";
 import project3 from "../assets/dashboard.png";
 import project4 from "../assets/delivery.png";
+import project5 from "../assets/movie.png";
 
 const Projects = () => {
   const projects = [
@@ -48,6 +49,16 @@ const Projects = () => {
       liveUrl: "https://delivery-web-updated.vercel.app/",
       githubUrl: "https://github.com/unwana573/delivery-web-updated.git",
       featured: false
+    },
+    {
+      id: 4,
+      title: "Movie website",
+      description: "A sleek movie and TV browsing app powered by TMDB. Search titles, explore trending content, and dive into details like cast, ratings, and trailers.",
+      image: project5,
+      technologies: ["React", "Tailwind CSS", "TypeScript", "Redux"],
+      liveUrl: "https://movie-web-ashen-five.vercel.app/",
+      githubUrl: "https://github.com/unwana573/movie-web-project.git",
+      featured: false
     }
   ];
 
@@ -57,7 +68,7 @@ const Projects = () => {
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
             <span className="bg-linear-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-            Featured{" "}
+            Featured{" Front-End "}
               Projects
             </span>
           </h2>
