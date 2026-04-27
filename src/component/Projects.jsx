@@ -62,16 +62,16 @@ const Projects = () => {
       githubUrl: "https://github.com/unwana573/movie-web-project.git",
       featured: false
     },
-    {
-      id: 5,
-      title: "Finance management website",
-      description: "This finance management system is designed to help users efficiently track, organize, and control their financial activities. It allows users to record income and expenses, monitor transactions in real time, and gain clear insights through structured data and reports. The system focuses on simplicity, accuracy, and accessibility, enabling better financial decision-making and improved money management.",
-      image: project6,
-      technologies: ["React", "CSS", "Python", "PostgreSQL"],
-      liveUrl: "https://finance-haven.vercel.app/",
-      githubUrl: "https://github.com/unwana573/finance-management.git",
-      featured: false
-    }
+    // {
+    //   id: 5,
+    //   title: "Finance management website",
+    //   description: "This finance management system is designed to help users efficiently track, organize, and control their financial activities. It allows users to record income and expenses, monitor transactions in real time, and gain clear insights through structured data and reports. The system focuses on simplicity, accuracy, and accessibility, enabling better financial decision-making and improved money management.",
+    //   image: project6,
+    //   technologies: ["React", "CSS", "Python", "PostgreSQL"],
+    //   liveUrl: "https://finance-haven.vercel.app/",
+    //   githubUrl: "https://github.com/unwana573/finance-management.git",
+    //   featured: false
+    // }
   ];
 
   return (
