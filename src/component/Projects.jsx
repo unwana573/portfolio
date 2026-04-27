@@ -7,6 +7,8 @@ import project2 from "../assets/Screenshot 2025-12-26 173509.png";
 import project3 from "../assets/dashboard.png";
 import project4 from "../assets/delivery.png";
 import project5 from "../assets/movie.png";
+import project5 from "../assets/movie.png";
+import project6 from "../assets/fina.jpeg";
 
 const Projects = () => {
   const projects = [
@@ -64,7 +66,7 @@ const Projects = () => {
       id: 5,
       title: "Finance management website",
       description: "This finance management system is designed to help users efficiently track, organize, and control their financial activities. It allows users to record income and expenses, monitor transactions in real time, and gain clear insights through structured data and reports. The system focuses on simplicity, accuracy, and accessibility, enabling better financial decision-making and improved money management.",
-      image: project5,
+      image: project6,
       technologies: ["React", "CSS", "Python", "PostgreSQL"],
       liveUrl: "https://finance-haven.vercel.app/",
       githubUrl: "https://github.com/unwana573/finance-management.git",
